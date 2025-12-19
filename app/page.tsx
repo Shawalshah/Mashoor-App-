@@ -156,7 +156,7 @@ function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="order-2 lg:order-1 flex justify-center mt-8 lg:mt-0"
+            className="order-2 lg:order-1 flex justify-center mt-9"
           >
             <motion.div
               animate={{ y: [0, -10, 0] }}
@@ -178,7 +178,7 @@ function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             dir="rtl"
-            className="order-1 lg:order-2 text-center lg:text-right"
+            className="order-1 lg:order-2 text-center lg:text-right mt-9"
           >
             <motion.div
               initial={{ opacity: 0, y: 8 }}
@@ -220,7 +220,7 @@ function HeroSection() {
               </motion.button>
             </div>
             
-            <div className="flex w-full flex-row-reverse justify-center lg:justify-start gap-8 sm:gap-12 mt-10 sm:mt-14">
+            <div className="flex w-full justify-center lg:justify-start gap-8 sm:gap-12 mt-10 sm:mt-14" dir="rtl">
               {[
                 { num: '۱۰۰+', label: 'شہر' },
                 { num: '۵۰۰۰+', label: 'پروڈکٹس' },
